@@ -29,9 +29,9 @@ const ProductFormUpdate = ({ product, onUpdate, onCancel }) => {
     const [error, setError] = useState(null);
     const [success, setSuccess] = useState(null);
 
-    const blobServiceUrl = 'https://shakirstorageaccount.blob.core.windows.net'; // Replace with your Blob service URL
+    const blobServiceUrl = 'https://vikingstorageaccount.blob.core.windows.net'; // Replace with your Blob service URL
     const sasToken =
-        'sv=2022-11-02&ss=bfqt&srt=sco&sp=rwdlacupiytfx&se=2025-01-08T09:43:28Z&st=2024-12-08T01:43:28Z&spr=https,http&sig=wFfTwmsLaLhwI6bs5DpfK0vo9y%2BKt%2BgI%2BZx0q81azgM%3D'; // Replace with your SAS token
+        'sv=2022-11-02&ss=bfqt&srt=sco&sp=rwdlacupiytfx&se=2025-12-19T00:17:48Z&st=2024-12-18T16:17:48Z&spr=https&sig=i8PR7WqZZEMKVqzqHLGvAnRoZMCJjqge4IdVyAMF2Rk%3D'; // Replace with your SAS token
     const containerName = 'product-images'; // Your Azure Blob Storage container name
 
     useEffect(() => {
